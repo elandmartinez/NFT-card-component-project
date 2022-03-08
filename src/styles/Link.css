@@ -1,0 +1,11 @@
+@import "vars.css";
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: var(--cyan);
+    cursor: pointer;
+    transition: color 0.5s;
+}
